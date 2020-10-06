@@ -5,8 +5,8 @@
 #SBATCH --partition=batch 
 #SBATCH --job-name=launch-jupyter-server
 #SBATCH --mail-type=ALL
-#SBATCH --output=bin/%x-%j-slurm.out
-#SBATCH --error=bin/%x-%j-slurm.err
+#SBATCH --output=results/%x-%j-slurm.out
+#SBATCH --error=results/%x-%j-slurm.err
 
 # setup the environment
 module purge
