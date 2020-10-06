@@ -17,3 +17,4 @@ dependencies:
   - pip:
     - -r file:requirements.txt
   - python
+  - xeus-python
