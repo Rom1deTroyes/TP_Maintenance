@@ -51,7 +51,7 @@ following commands to source the `postBuild` script.
 
 ```bash
 conda activate $ENV_PREFIX # optional if environment already active
-. postBuild
+source postBuild
 ```
 
 For your convenience these commands have been combined in a shell script `./bin/create-conda-env.sh`. 
@@ -80,6 +80,13 @@ following command.
 
 ```bash
 $ conda env create --prefix $ENV_PREFIX --file environment.yml --force
+```
+
+If you have added any JupyterLab extensions or made any other changes to the `postBuild` script, then you 
+should re-create the entire Conda environment by re-running the `bin/create-conda-env.sh` scipt as follows.
+
+```bash
+./bin/create-conda-env.sh
 ```
 
 ## Using Docker
