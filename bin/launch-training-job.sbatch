@@ -9,7 +9,6 @@
 #SBATCH --error=results/%x-%j-slurm.err
 
 # setup the environment
-module purge
 conda activate $PWD/env
 
 # run your training script
