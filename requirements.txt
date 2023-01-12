@@ -1,1 +1,7 @@
+av
+jupyterlab
+keras
+opencv-python
+pandas
 python-language-server[all]
+tensorflow
