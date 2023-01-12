@@ -1,6 +1,6 @@
-# python-data-science-project
+# TP Maintenance
 
-Repository containing scaffolding for a Python 3-based data science project. 
+ISEN - Daphné - 20230112
 
 ## Creating a new project from this template
 
